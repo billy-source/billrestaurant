@@ -31,7 +31,19 @@ nav ul li a {
 section {
   padding: 20px;
   margin: 10px;
-  background-color: white;
+  background-color: rgb(245, 242, 242);
+  border-radius: 8px;
+}
+section {
+  padding: 20px;
+  margin: 10px;
+  background-color: rgb(245, 242, 242);
+  border-radius: 8px;
+}
+section {
+  padding: 20px;
+  margin: 10px;
+  background-color: rgb(245, 242, 242);
   border-radius: 8px;
 }
 
@@ -40,25 +52,80 @@ footer {
   padding: 10px;
   background-color: #333;
   color: white;
-  position: fixed;
+  position: relative;
   width: 100%;
   bottom: 0;
+  border-radius: 10px;
+  
 }
 nav a:hover {
   color: #f39c12; /* warm highlight */
 }
 .menu{
-  width: 1200px;
-  height:1000px ;
+  width: 100%;
+  height:auto ;
 }
-.img1{
-  width: 370px;
-  height: 370px;
+.img{
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  margin: 10px;
 }
-.img2{
-  width: 370px;
-  height: 370px;
-}.img3{
-  width: 370px;
-  height: 370px;
+ #about {
+  padding: 60px 20px;
+  background-color: #156e09;
+  text-align: center;
 }
+
+#about h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+#about p {
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-inline: auto;
+  font-size: 1rem;
+}
+
+.about-grid {
+ display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.info {
+  flex: 1 1 300px;
+  max-width: 400px;
+}
+
+.info h3 {
+  font-size: 1.4rem;
+  color: #00334e;
+  margin-bottom: 10px;
+}
+
+.info ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.info ul li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+#footer li{
+  list-style: none;
+} 
+.gallery{
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  display: flex;
+align-items: center;
+}
+
+
