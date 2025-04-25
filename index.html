@@ -1,87 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BILLS RESTAURANT</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section id="home">
-        <h1>Welcome to Our Restaurant</h1>
-        <p>Life is all about discovering new tastes</p>
-    </section>
-    
-    <section id="menu">
-        <h2>Our Menu</h2>
-        <!-- Menu items will go here -->
-         <img class="menu" src="menu.png" alt="our menu">
-    </section>
-<section id="gallery">
-  <h2> Gallery</h2>
-   <img class="img" src="beef.jpg" alt="beef ">
-   <img class="img" src="breakfast.jpg" alt="breakfast">
-   <img class="img" src="drinks.jpg" alt="drinks">
-   <img class="img" src="viazikarai.jpg" alt="viazi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BILLS RESTAURANT</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="home">
+       
+        <h1>Welcome to <br>BILLS RESTAURANT</h1>
+        <p>Life is all about discovering new tastes
+    </div>
+  </header>  
+<section id="history">
+  <h2>Our History</h2>
+  <p>Welcome to BILLS RESTAURANT, a fully fledged restaurant specializing in delivering a relaxed and memorable dining experience.
+    We’re currently in 17 locations; 6 in Nairobi, 2 in mombasa, 8 in Kampala and 1 in Entebbe.
+    Each location features a unique ambience with tasteful décor, specially designed for your comfort. To make you
+    feel more at home, we've carefully selected a unique theme for each location.
+    We have over 300 carefully selected, mouthwatering menu items. Whatever your taste, it's well catered for. We
+    value you. That's why you'll always be served with excellence by each member of our highly skilled team members.
+    Eager to serve you, our experienced wait staff greet you at the door and lead you to the table of your choice in
+    the well thought out seating arrangement. The rich aroma of freshly ground coffee is the Handy work of our skilled
+    baristas, adept in latte art. This ensures you get a freshly prepared cup of coffee as the beans are roasted on
+    site. To ensure you always enjoy a special dining experience, we constantly improve our signature world-class
+    innovations.
+    We're growing and may soon open a location closer to you. We look forward to serving you, You're more than welcome
+    to Find us here.
+    BILLS is part of Mandela Group of companies, the parent company to BILLS , City Tyres, City Oil, City Lubes, City
+    World, Savers, Food Hub, Mandela millers and Mandela Auto Spares.<br></p>
 </section>
-<section id="about">
-    <h2>About Us</h2>
-    <p>Learn more about our story and values.</p>
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <!-- Menu items will go here -->
+    <img class="menu" src="menu.png" alt="our menu">
+  </section>
+  <section id="gallery">
+    <h2> Gallery</h2>
+    <img class="img" src="beef.jpg" alt="beef ">
+    <img class="img" src="breakfast.jpg" alt="breakfast">
+    <img class="img" src="drinks.jpg" alt="drinks">
+    <img class="img" src="viazikarai.jpg" alt="viazi">
+  </section>
+  <section id="info-sections" class="split-section">
+   
+    <div class="about-us">
+      <h2>More Info</h2>
+      <p>Learn more about our story and values.</p>
   
-    <div class="about-grid">
-      <div class="info">
-        <h3> Location📍</h3>
-        <ul>
-          <li>The Bills Restaurant 225 Two Light Rd</li>
-          <li>Along Isaac Githanga road</li>
-          <li>Opposite Nairobi Jaffrey Sports Club</li>
-        </ul>
+      <div class="info-block">
+        <h3>📍 Location</h3>
+        <p>The Bills Restaurant 225 Two Light Rd<br />
+        Along Isaac Githanga Road<br />
+        Opposite Nairobi Jaffrey Sports Club</p>
       </div>
   
-      <div class="info">
-        <h3>⏰ HOURS</h3>
-        <ul>
-          <li>Lunch & Dinner</li>
-          <li>Daily July & August: 11 AM to 8:30 PM</li>
-          <li>Other Months: 11 AM to 8:00 PM</li>
-        </ul>
+      <div class="info-block">
+        <h3>⏰ Hours</h3>
+        <p>Lunch & Dinner<br />
+        Daily July & August: 11 AM to 8:30 PM<br />
+        Other Months: 11 AM to 8:00 PM</p>
       </div>
     </div>
-  </section>
-  <section id="contact">
+    <section id="contact-us">
+      <h2>Contact Us</h2>
+      <ul class="contact-list">
+        <li><a href="tel:0708879435" class="fa fa-phone">Phone</i></a></li>
+        <li><i class="fa fa-envelope"></i><a href="mailto:billsrestaurant@gmail.com">billsrestaurant@gmail.com</a></li>
+         <li><i class="fa fa-twitter"></i> <a href="https://twitter.com/yourusername">Twitter</a></li>
+        <li><i class="fa fa-instagram"></i> <a href="https://instagram.com/esthetic.billy21">Instagram</a></li>
+      </ul>
     
-    <form>
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea placeholder="What should be improved in our rest" required></textarea>
-      <button type="submit"> Send Message</button>
-    </form>
-  </section>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="What should be improved in our restraunt?" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
     
+    <footer class="footer">
+      <div class="footer-content">
+        <p>&copy;2025 <strong>BILLS RESTAURANT</strong>.All rights reserved.</p>
+        <p>Designed by Billy Kemboi 💻</p>
+      
+      </div>
 
-    <footer>
-      <h2>Contact Me</h2>
-        <ul>
-             <li><a href="tel:0708879435" class="fa fa-phone">Phone</i></a></li>
-             <li><a href="mailto:BILLSRESTAURANT@gmail.com">BILLSRESTAURANT@gmail.com</a></li>
-             <li><a href="https://twitter.com/your_username" class="fa fa-twitter"></i> Twitter</a> </li>
-              <li><a href="https://www.instagram.com/_esthetic.billy?igsh=MW9vbWVkenY0a3podw==" class="fa fa-instagram"></i>Instagram
-                </a>
-              </li>
-            </ul>
-        <p>&copy; 2025 BILLS RESTAURANT. All rights reserved.</p>
     </footer>
+
 </body>
+
 </html>
- 
